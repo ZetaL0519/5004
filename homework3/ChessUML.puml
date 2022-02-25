@@ -1,0 +1,91 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class AbstractChess
+interface ChessPiece
+enum Color
+class Bishop
+class King
+class Knight
+class Pawn
+class Queen
+class Rook
+
+ChessPiece <|-- AbstractChess
+
+AbstractChess <|-- Bishop
+AbstractChess <|-- King
+AbstractChess <|-- Queen
+AbstractChess <|-- Knight
+AbstractChess <|-- Pawn
+AbstractChess <|-- Rook
+AbstractChess <|-- Color
+
+interface ChessPiece {
+getColor()
+getColumn()
+getRow()
+canMove()
+canKill()
+}
+
+class AbstractChess {
+int x;
+int y;
+Color color;
+getRow()
+getColumn()
+getColor()
+canMove()
+canKill()
+}
+
+enum Color {
+BLACK
+WHITE
+getValue()
+}
+
+class Bishop {
+int x;
+int y;
+Color color;
+canMove()
+}
+
+class Queen {
+int x;
+int y;
+Color color;
+canMove()
+}
+
+class King {
+int x;
+int y;
+Color color;
+canMove()
+}
+
+class Rook {
+int x;
+int y;
+Color color;
+canMove()
+}
+
+class Knight {
+int x;
+int y;
+Color color;
+canMove()
+}
+
+class Pawn {
+int x;
+int y;
+Color color;
+canMove()
+canKill()
+}
+@enduml

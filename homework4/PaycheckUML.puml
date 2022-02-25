@@ -1,0 +1,57 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class AbstractPaycheck
+interface IPaycheck
+class Employee
+class SalariedPaycheck
+class HourlyPaycheck
+
+IPaycheck <|-- AbstractPaycheck
+AbstractPaycheck <|-- SalariedPaycheck
+AbstractPaycheck <|-- HourlyPaycheck
+
+class Employee {
+String name
+String id
+double payRate
+int payInterval
+boolean isManager
+double hoursWorked
+isManager()
+getPaycheck()
+toString()
+}
+
+interface IPaycheck {
+getTotalPay()
+getPayAfterTaxes()
+getPayRate()
+}
+
+abstract class AbstractPaycheck {
+double payRate
+getPayAfterTaxes()
+getPayRate()
+toString()
+}
+
+class SalariedPaycheck {
+double payRate
+int payInterval
+getTotalPay()
+getPayInterval()
+equals()
+hashcode()
+}
+
+class HourlyPaycheck {
+double payRate
+double hoursWorked
+getTotalPay()
+addHoursWorked()
+resetHoursWorked()
+getHoursWorked()
+}
+
+@enduml

@@ -1,0 +1,53 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class AbstractAccount
+interface IAccount
+class CheckingAccount
+class SavingsAccount
+
+IAccount <|-- AbstractAccount
+
+AbstractAccount <|- SavingsAccount
+AbstractAccount <|- CheckingAccount
+
+interface IAccount {
+double amount
++ deposit(double amount)
++ withdraw(double amount)
++ getBalance()
++ performMonthlyMaintenance()
+}
+class AbstractAccount {
+double curAmount
+double amount
++ AbstractAccount(double curAmount)
++ deposit(double amount)
++ withdraw(double amount)
++ getBalance()
++ performMonthlyMaintenance()
++ toString()
+}
+
+class CheckingAccount {
+double curAmount
+double amount
+boolean AmountBelow
+boolean newMonth
+--
++ CheckingAccount(curAmount)
++ checkAmount()
++ performMonthlyMaintenance()
+}
+
+class SavingsAccount {
+double curAmount
+double amount
+int WithdrawNum
+--
++ CheckingAccount(curAmount)
++ getWithDrawNum()
++ performMonthlyMaintenance()
+}
+
+@enduml

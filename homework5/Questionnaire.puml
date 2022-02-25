@@ -1,0 +1,97 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class AbstractQuestion
+class Likert
+class ShortAnswer
+class YesNo
+class QuestionnaireImp
+interface Question
+interface Questionnaire
+enum LikertResponseOption
+
+Question <|-- AbstractQuestion
+Questionnaire <|-- QuestionnaireImp
+
+AbstractQuestion <|- Likert
+AbstractQuestion <|- YesNo
+AbstractQuestion <|- ShortAnswer
+
+Likert <|-- LikertResponseOption
+Questionnaire "1" *-- "many" Question
+
+interface Question {
++ getPrompt()
++ isRequired()
++ answer(String ans)
++ getAnswer()
++ copy()
++ AddIdentifier(String identifier)
++ GetIdentifier()
+}
+
+interface Questionnaire {
++ addQuestion(String identifier, Question q)
++ removeQuestion(String identifier)
++ getQuestion(int num)
++ getQuestion(String identifier)
++ getRequiredQuestions()
++ getOptionalQuestions()
++ isComplete()
++ getResponses()
++ filter(Predicate<Question> pq)
++ sort(Comparator<Question> comp)
++ fold(BiFunction<Question, R, R> bf, R seed)
++ toString()
+}
+
+class QuestionnaireImp {
+List<Question> QList
+}
+
+class AbstractQuestion {
+String questionText
+boolean Required
+String answer
+String identifier
++ AbstractQuestion()
++ getPrompt()
++ isRequired()
++ answer()
++ getAnswer()
++ copy()
++ AddIdentifier()
++ GetIdentifier()
++ equals()
++ hashcode()
+}
+
+class Likert {
+String questionText
+boolean Required
++ answer()
+}
+
+class YesNo {
+String questionText
+boolean Required
++ answer()
+}
+
+class ShortAnswer {
+String questionText
+boolean Required
++ answer()
+}
+
+enum LikertResponseOption {
+STRONGLY AGREE
+AGREE
+NEUTRAL
+DISAGREE
+STRONGLY DISAGREE
++ getValue()
++ getText()
+}
+
+@enduml

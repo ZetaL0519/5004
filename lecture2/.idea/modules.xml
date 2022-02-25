@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SimpleFraction/SimpleFraction.iml" filepath="$PROJECT_DIR$/SimpleFraction/SimpleFraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lecture2.iml" filepath="$PROJECT_DIR$/.idea/lecture2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shape/shape.iml" filepath="$PROJECT_DIR$/shape/shape.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+Displacement = 1.7320508075688772
+Encountered an error: Time given should be positive.
+
+The first sentence describes the distance between Object Point3D one and two.
+The second sentence describes the error that time is not positive.
