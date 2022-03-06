@@ -1,0 +1,52 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ElementNode
+class EmptyNode
+class ListPriorityQueue
+interface PriorityQueue
+interface INode
+
+INode <|- ElementNode
+INode <|- EmptyNode
+ListPriorityQueue *-- ElementNode
+ListPriorityQueue *-- EmptyNode
+PriorityQueue *-- INode
+PriorityQueue <|- ListPriorityQueue
+
+interface INode {
++ isEmpty()
++ add(priority, value)
++ peek()
++ pop()
+}
+
+interface PriorityQueue {
++ isEmpty()
++ add(priority, value)
++ peek()
++ pop()
+}
+
+class EmptyNode {
++ equals()
++ toString()
+}
+
+class ElementNode{
+- String value
+- Integer priority
+- INode next
++ getPriority()
++ getNext()
++ equals()
++ toString()
+}
+
+class ListPriorityQueue{
+- INode head
++ {static}createEmpty()
++ toString()
++ equals()
+}
+@enduml

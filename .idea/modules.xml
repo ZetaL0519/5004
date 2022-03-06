@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/5004.iml" filepath="$PROJECT_DIR$/.idea/5004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab/Lab0/Lab0.iml" filepath="$PROJECT_DIR$/lab/Lab0/Lab0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab/Lab2/Lab2.iml" filepath="$PROJECT_DIR$/lab/Lab2/Lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab/Lab3/Lab3.iml" filepath="$PROJECT_DIR$/lab/Lab3/Lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture2/SimpleFraction/SimpleFraction.iml" filepath="$PROJECT_DIR$/lecture2/SimpleFraction/SimpleFraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework1/homework1.iml" filepath="$PROJECT_DIR$/homework1/homework1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework2/homework2.iml" filepath="$PROJECT_DIR$/homework2/homework2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework3/homework3.iml" filepath="$PROJECT_DIR$/homework3/homework3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework4/homework4.iml" filepath="$PROJECT_DIR$/homework4/homework4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework5/homework5.iml" filepath="$PROJECT_DIR$/homework5/homework5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab/lab.iml" filepath="$PROJECT_DIR$/lab/lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture1/lecture1.iml" filepath="$PROJECT_DIR$/lecture1/lecture1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture3/lecture3.iml" filepath="$PROJECT_DIR$/lecture3/lecture3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture4/lecture4.iml" filepath="$PROJECT_DIR$/lecture4/lecture4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture2/lecture_2_circle_code/lecture_2_circle_code.iml" filepath="$PROJECT_DIR$/lecture2/lecture_2_circle_code/lecture_2_circle_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture2/shape/shape.iml" filepath="$PROJECT_DIR$/lecture2/shape/shape.iml" />
+    </modules>
+  </component>
+</project>
