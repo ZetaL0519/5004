@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="homework9:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d58aa772-ec0d-4a6b-85b2-1551d0de6f08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../homework1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework6/homework6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/RegistrationUML.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/homework7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/AbstractVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/Automobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/BlueJurisdiction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/GreenJurisdiction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/IJurisdiction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/IRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/IVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/MotorCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/RedJurisdiction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/src/registration/RegistrationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/test/packagetest/TestJurisdiction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/test/packagetest/TestRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/test/packagetest/TestRegistrationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework7/test/packagetest/TestVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/ShapeAlbumUML.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/homework8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Model/IShapeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Model/IShapeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Model/ShapeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Model/ShapeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Shape/AbstractShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Shape/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Shape/IShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Shape/Oval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Shape/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/src/Shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework8/test/ShapeAlbumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/buildings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/demo_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AnimationBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AnimationBuilderImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AnimationGraphicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AnimationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AnimationWebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/IAnimationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/IShapeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/ShapeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/SnapShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhotoAlbumMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/IShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/Oval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/DrawingPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/GraphicView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/IView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/WebView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TestWebView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/Lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/doubledispatch/IPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/doubledispatch/ISpaceExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/doubledispatch/LifeExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/doubledispatch/Mars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/doubledispatch/Mercury.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/doubledispatch/SimulationBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/doubledispatch/TerrainExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/doubledispatch/Venus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab4/src/frequency/Analytics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab5/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab5/Lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab5/src/tictactoe/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/Lab6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/src/tictactoe/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/src/tictactoe/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/src/tictactoe/TicTacToeConsoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/src/tictactoe/TicTacToeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab/Lab6/test/TicTacToeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/midterm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/AbstractListing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/IListing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/PropertyCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/SaleCondo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/SaleHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question11/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question12/PartA.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question12/PartB.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question6/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question7/Boxer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question8/IntStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question9/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab/lab.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27ksabzkArWgVcn8F0bpTqdasr8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/homework9_jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lisiy\Desktop\neu\5004\homework9\out\artifacts\homework9_jar" />
+      <recent name="C:\Users\lisiy\Desktop\neu\5004\homework9\src\Controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lisiy\Desktop\neu\5004\homework9\out\artifacts\shape_photoalbum_jar" />
+      <recent name="C:\Users\lisiy\Desktop\neu\5004\homework9\res" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PhotoAlbumMain">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="homework9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhotoAlbumMain" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhotoAlbumMain" />
+      <module name="homework9" />
+      <option name="PROGRAM_PARAMETERS" value="-v graphical 800 800 -in demo_input.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="PhotoAlbumMain" />
+      <module name="homework9" />
+      <option name="PROGRAM_PARAMETERS" value="MyProgram -in buildings.txt -out myWeb.html -v web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebView.TestAlbumWithCommandLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebView" />
+      <option name="METHOD_NAME" value="TestAlbumWithCommandLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebView.TestColorShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebView" />
+      <option name="METHOD_NAME" value="TestColorShape" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebView.TestMoveShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebView" />
+      <option name="METHOD_NAME" value="TestMoveShape" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebView.TestRemoveShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebView" />
+      <option name="METHOD_NAME" value="TestRemoveShape" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebView.TestResizeShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework9" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWebView" />
+      <option name="METHOD_NAME" value="TestResizeShape" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PhotoAlbumMain" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestWebView.TestMoveShape" />
+      <item itemvalue="JUnit.TestWebView.TestRemoveShape" />
+      <item itemvalue="JUnit.TestWebView.TestColorShape" />
+      <item itemvalue="JUnit.TestWebView.TestResizeShape" />
+      <item itemvalue="JUnit.TestWebView.TestAlbumWithCommandLine" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestWebView.TestAlbumWithCommandLine" />
+        <item itemvalue="JUnit.TestWebView.TestResizeShape" />
+        <item itemvalue="JUnit.TestWebView.TestColorShape" />
+        <item itemvalue="JUnit.TestWebView.TestRemoveShape" />
+        <item itemvalue="JUnit.TestWebView.TestMoveShape" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d58aa772-ec0d-4a6b-85b2-1551d0de6f08" name="Changes" comment="" />
+      <created>1649875483696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649875483696</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

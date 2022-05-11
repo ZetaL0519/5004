@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9b86fa0-7a20-4ce0-8cba-633304f26b31" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/AbstractListing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/IListing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/PropertyCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/SaleCondo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question10/SaleHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question11/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question12/PartA.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question12/PartB.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question6/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question7/Boxer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question8/IntStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/question9/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26iis3IKncZVT8GEqLsOBHyRlMj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Lab4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Lab4" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9b86fa0-7a20-4ce0-8cba-633304f26b31" name="Changes" comment="" />
+      <created>1647913011930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647913011930</updated>
+    </task>
+    <servers />
+  </component>
+</project>

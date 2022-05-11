@@ -1,0 +1,98 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "Shape" {
+interface IShape
+abstract class AbstractShape
+class Oval
+class Rectangle
+class Color
+class Position
+}
+
+package "Model" {
+interface IShapeModel
+class ShapeModel
+interface IShapeController
+class ShapeController
+class Main
+}
+
+IShape <-- AbstractShape
+AbstractShape <- Rectangle
+AbstractShape <- Oval
+AbstractShape "1" *-- "1" Position
+AbstractShape "1" *-- "1" Color
+
+IShapeModel <-- ShapeModel
+IShapeController <-- ShapeController
+Main *-- IShapeController
+IShapeController *-- IShapeModel
+ShapeController *-- ShapeModel
+
+ShapeModel *-- IShape
+
+abstract class AbstractShape {
+- name
+- position
+- color
++ getPosition
++ getName
++ getColor
++ move
++ changeColor
++ changeSize
+}
+
+class Color {
+- r
+- g
+- b
++ outOfBound
++ toString
+}
+
+class Position {
+- x
+- y
++ toString
+}
+
+class Oval {
+- XRadius
+- YRadius
++ getXRadius
++ getYRadius
+}
+
+class Rectangle {
+- height
+- width
++ getHeight
++ getWidth
+}
+
+interface IShapeModel {
++ Snapshot()
++ printShapeList()
++ printSnapShapeList()
++ printSnapShotList()
++ CreateShape()
++ removeShape()
++ ChangeColor()
++ ChangePos()
++ Resize()
++ reset()
++ checkRepeatName()
+}
+
+class ShapeModel {
+- shapeList
+- DescriptionMap
+- ShapeMap
+}
+
+interface IShapeController {
++ ShapeGame()
+}
+@enduml

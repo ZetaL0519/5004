@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Employer
+class Employee
+
+Employer "1" *-- "1...*" Employee
+
+class Employee {
+- name
+- salary
+- jobTitle
+}
+
+
+
+@enduml

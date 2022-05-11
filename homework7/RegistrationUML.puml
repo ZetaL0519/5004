@@ -1,0 +1,86 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class AbstractVehicle
+class Automobile
+class Boat
+class MotorCycle
+class RedJurisdiction
+class BlueJurisdiction
+class GreenJurisdiction
+class Person
+class Registration
+class RegistrationSystem
+interface IVehicle
+interface IRegistration
+interface IJurisdiction
+
+IVehicle <|-- AbstractVehicle
+AbstractVehicle <|-- Boat
+AbstractVehicle <|-- MotorCycle
+AbstractVehicle <|-- Automobile
+
+IRegistration <|-- Registration
+IJurisdiction <|-- RedJurisdiction
+IJurisdiction <|-- BlueJurisdiction
+IJurisdiction <|-- GreenJurisdiction
+
+Registration -- Person
+Registration *-- IJurisdiction
+Registration *-- IVehicle
+
+RegistrationSystem "1" *-- "many" Registration
+
+interface IVehicle {
++ getBrand()
++ getProductionYear()
++ getPrice()
+}
+
+abstract class AbstractVehicle {
+- String brand
+- int year
+- double price
+}
+
+class Boat {
++ getPasNum()
+}
+
+class Automobile {
++ getPasNum()
+}
+
+class MotorCycle {
++ getPasNum()
+}
+
+interface IJurisdiction {
++ exciseTax()
+}
+
+class Person {
++ getName()
++ getAddress()
+}
+
+interface IRegistration {
++ getRegistrationYear()
++ getProductionYear()
++ getJurisdiction()
++ getOwners()
++ getMaxPassengers()
++ calculateExciseTax()
+}
+
+class RegistrationSystem {
++ getInstance()
++ createVehicle()
++ register()
++ getAllRegistrations()
++ getFilteredList()
++ reboot()
+}
+
+
+@enduml
